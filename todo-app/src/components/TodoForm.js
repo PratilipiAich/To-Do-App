@@ -26,8 +26,9 @@ function TodoForm({ addTodo }) {
         
         <form className="todo-form" onSubmit={handleSubmit}>
             <TextField 
-            label="Task"
+            label="Enter Task..."
             name="task"
+            style={{width: 350}}
             type="text"
             value={todo.task}
             onChange={handleTaskInputChange}
@@ -35,7 +36,11 @@ function TodoForm({ addTodo }) {
             <Button type="submit" style={{  
                 backgroundColor: '#282c34', 
                 fontFamily: "sans-serif",
-                border: 2, padding: 8, color: 'white' }}>add</Button>
+                border: 2, 
+                padding: 8, 
+                color: 'white',
+                marginLeft: 30,
+                borderRadius: '30px' }}>Add</Button>
         </form>
     );
 }

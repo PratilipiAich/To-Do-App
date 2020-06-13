@@ -10,4 +10,4 @@ You can perform the following actions:
  2.  Delete any added task
  3. Mark any task as done 
 
-## Note: Under progress!
+## Note: First Attempt!

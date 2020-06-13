@@ -43,9 +43,9 @@ function App() {
 
   return (
     <div className="App">
-        <Typography style={{ padding: 16, color: '#282c34' }} variant="h3">
-          Task Manager
-          </Typography>
+        {<Typography style={{ padding: 16, color: '#282c34' }} variant="h4">
+          To-Do List
+          </Typography>}
         <TodoForm addTodo={addTodo} />
         <TodoList
           todos={todos}
